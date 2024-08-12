@@ -1,15 +1,15 @@
 # Scrapy PEP Parser
 
 # Оглавление
-- [:page_with_curl: Описание](https://github.com/Tiaki026/bs4_parser_pep#page_with_curl-описание)
-- [Процесс разработки, особенности и трудности](https://github.com/Tiaki026/bs4_parser_pep#процесс-разработки-особенности-и-трудности)
-  - [Было изучено](https://github.com/Tiaki026/bs4_parser_pep#было-изучено)
-  - [Трудности возникшие в работе](https://github.com/Tiaki026/bs4_parser_pep#трудности-возникшие-в-работе)
-- [:computer: Стек технологий](https://github.com/Tiaki026/bs4_parser_pep#computer-стек-технологий)
-- [:page_with_curl: Как воспользоваться проектом](https://github.com/Tiaki026/bs4_parser_pep#page_with_curl-как-воспользоваться-проектом)
-  - [Подготовка проекта](https://github.com/Tiaki026/bs4_parser_pep#подготовка-проекта)
-  - [Работа с проектом](https://github.com/Tiaki026/bs4_parser_pep?tab=readme-ov-file#работа-с-проектом)
-- [Автор](https://github.com/Tiaki026/bs4_parser_pep#автор)
+- [:page_with_curl: Описание](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#page_with_curl-описание)
+- [Процесс разработки, особенности и трудности](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#процесс-разработки-особенности-и-трудности)
+  - [Было изучено](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#было-изучено)
+  - [Трудности возникшие в работе](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#трудности-возникшие-в-работе)
+- [:computer: Стек технологий](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#computer-стек-технологий)
+- [:page_with_curl: Как воспользоваться проектом]()
+  - [Подготовка проекта](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#page_with_curl-как-воспользоваться-проектом)
+  - [Работа с проектом](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#работа-с-проектом)
+- [Автор]([https://github.com/Tiaki026](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#автор))
 
 ## :page_with_curl: Описание
 Scrapy PEP Parser — это инструмент для парсинга PEP (Python Enhancement Proposals) с [официального сайта](https://peps.python.org/). Скрипт позволяет анализировать статусы PEP и выводить результаты в виде двух csv-файлов:
@@ -26,7 +26,7 @@ Scrapy PEP Parser — это инструмент для парсинга PEP (P
 - Вывод данных в файлы csv.
 
 ### Трудности возникшие в работе
-В этот раз обошлось без них. Проект аналогичен [прошлому](https://github.com/Tiaki026/bs4_parser_pep), но работает в разы быстрее. Разработка так же заняла меньше времени (быть может это скилл :relaxed:).
+В этот раз обошлось без них. Проект аналогичен [BS4 PEP Parser](https://github.com/Tiaki026/bs4_parser_pep), но работает в разы быстрее. Разработка так же заняла меньше времени (быть может это скилл :relaxed:).
 
 ## :computer: Стек технологий
 - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) Python: Язык программирования
@@ -79,4 +79,4 @@ pip install -r requirements.txt
 ## 
 
 
-  ## [:top: Путь наверх :top:](https://github.com/Tiaki026/bs4_parser_pep?tab=readme-ov-file#pep-parser)
+  ## [:top: Путь наверх :top:](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#scrapy-pep-parser)
