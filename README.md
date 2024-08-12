@@ -36,6 +36,9 @@ Scrapy PEP Parser — это инструмент для парсинга PEP (P
 
 ## :page_with_curl: Как воспользоваться проектом
 ### Подготовка проекта
+<details>
+<summary>:mag: Спойлер</summary>
+
 1. Клонирование проекта с GitHub
 ```
 git@github.com:Tiaki026/scrapy_parser_pep.git
@@ -64,6 +67,8 @@ source venv/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
+</details>
+
 ### Работа с проектом
 Работа вызываеся одной командой - `scrapy crawl pep`
 
@@ -71,7 +76,7 @@ pip install -r requirements.txt
 
 Файл [pep.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/pep_2024-08-12T00-35-59.csv)
 <details>
-<summary>Спойлер</summary>
+<summary>:mag: Спойлер</summary>
   
   ```
   number,name,status
@@ -90,7 +95,7 @@ pip install -r requirements.txt
 
 Файл [status_summary.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/status_summary_2024-08-12-03-35-59.csv)
 <details>
-<summary>Спойлер</summary>
+<summary>:mag: Спойлер</summary>
   
 ```
 Статус,Количество
