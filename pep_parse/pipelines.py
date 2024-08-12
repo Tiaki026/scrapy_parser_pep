@@ -1,6 +1,8 @@
 from collections import defaultdict
+
 from pep_parse.constants import (
-    BASE_DIR, RESULTS, FILE_NAME, STATUS_COUNT, ITEM_STATUS, TOTAL, W, UTF8
+    BASE_DIR, FILE_NAME, ITEM_STATUS,
+    RESULTS, STATUS_COUNT, TOTAL, UTF8, W
 )
 
 

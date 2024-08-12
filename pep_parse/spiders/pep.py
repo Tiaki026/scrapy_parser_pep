@@ -1,8 +1,9 @@
 import scrapy
-from pep_parse.items import PepParseItem
+
 from pep_parse.constants import (
-    NAME, ALLOWED_DOMAINS, START_URL, PEP_LINK, TITLE, STATUS
+    ALLOWED_DOMAINS, NAME, PEP_LINK, START_URL, STATUS, TITLE
 )
+from pep_parse.items import PepParseItem
 
 
 class PepSpider(scrapy.Spider):
