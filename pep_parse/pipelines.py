@@ -1,27 +1,34 @@
-from itemadapter import ItemAdapter
-from pathlib import Path
 from collections import defaultdict
-
-BASE_DIR = Path(__file__).parent
+from pep_parse.constants import (
+    BASE_DIR, RESULTS, FILE_NAME, STATUS_COUNT, ITEM_STATUS, TOTAL, W, UTF8
+)
 
 
 class PepParsePipeline:
 
     def open_spider(self, spider):
-        results_dir = BASE_DIR / 'results'
-        results_dir.mkdir(exist_ok=True)
-        file_name = 'status_summary_%(time)s.csv'
-        self.file_path = results_dir / file_name
+        """Начало работы "паука".
+        Создает папку results для сохранения данных.
+        Сохраняет файл status_summary."""
+        self.results_dir = BASE_DIR / RESULTS
+        self.results_dir.mkdir(exist_ok=True)
+        self.file_path = self.results_dir / FILE_NAME
         self.count_status = defaultdict(int)
 
     def process_item(self, item, spider):
-        self.count_status[item['status']] += 1
+        """Процесс "паука".
+        Считает количество статусов."""
+        self.count_status[item[ITEM_STATUS]] += 1
         return item
 
     def close_spider(self, spider):
-        self.count_status['Total'] = sum(self.count_status.values())
-        for status, count in self.count_status.items():
-            self.results.append((status, count))
-        with open(self.file_path, mode='w', encoding='utf-8') as f:
-            f.write('Статус,Количество\n')
-            f.write(f'Total,{self.results}\n')
+        """Завершение работы "паука".
+        Записывает данные в csv-файл в два столбца:Статус и Количество.
+        Добавляет в конце строку Total с общим количеством PEP."""
+        self.count_status[TOTAL] = sum(self.count_status.values())
+
+        with open(self.file_path, mode=W, encoding=UTF8) as f:
+            f.write(STATUS_COUNT)
+
+            for status, count in self.count_status.items():
+                f.write(f'{status},{count}\n')

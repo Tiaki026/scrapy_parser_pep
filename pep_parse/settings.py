@@ -7,10 +7,10 @@ NEWSPIDER_MODULE = "pep_parse.spiders"
 ROBOTSTXT_OBEY = True
 
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
-TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
+ASYNCIO_EVENT_LOOP = 'asyncio.SelectorEventLoop'
 FEED_EXPORT_ENCODING = "utf-8"
-# BASE_DIR = Path(__file__).parent
-# RESULTS_PATH = BASE_DIR / 'results/'
+
 FEEDS = {
     'results/pep_%(time)s.csv': {
         'format': 'csv',
