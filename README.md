@@ -72,13 +72,13 @@ pip install -r requirements.txt
 Файл [pep.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/pep_2024-08-12T00-35-59.csv)
 <details>
   <summary>Спойлер</summary>
-    ![image](https://github.com/user-attachments/assets/44cc1517-3ec9-4023-a424-53682f221da0)
+![image](https://github.com/user-attachments/assets/44cc1517-3ec9-4023-a424-53682f221da0)
 </details>
 
 Файл [status_summary.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/status_summary_2024-08-12-03-35-59.csv)
 <details>
   <summary>Спойлер</summary>
-    ![image](https://github.com/user-attachments/assets/de73cb46-83a2-4d4d-b357-81fe804f03dd)
+![image](https://github.com/user-attachments/assets/de73cb46-83a2-4d4d-b357-81fe804f03dd)
 </details>
 
 
