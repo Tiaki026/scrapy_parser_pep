@@ -9,7 +9,7 @@
 - [:page_with_curl: Как воспользоваться проектом]()
   - [Подготовка проекта](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#page_with_curl-как-воспользоваться-проектом)
   - [Работа с проектом](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#работа-с-проектом)
-- [Автор]([https://github.com/Tiaki026](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#автор))
+- [Автор][https://github.com/Tiaki026](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#автор)
 
 ## :page_with_curl: Описание
 Scrapy PEP Parser — это инструмент для парсинга PEP (Python Enhancement Proposals) с [официального сайта](https://peps.python.org/). Скрипт позволяет анализировать статусы PEP и выводить результаты в виде двух csv-файлов:
