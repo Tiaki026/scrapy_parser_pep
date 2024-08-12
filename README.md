@@ -70,13 +70,14 @@ pip install -r requirements.txt
 После вывода в терминал `INFO: Spider closed (finished)` смотрим результаты в папке [results](https://github.com/Tiaki026/scrapy_parser_pep/tree/main/results)
 
 Файл [pep.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/pep_2024-08-12T00-35-59.csv)
+![image](https://github.com/user-attachments/assets/44cc1517-3ec9-4023-a424-53682f221da0)
 
 Файл [status_summary.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/status_summary_2024-08-12-03-35-59.csv)
+![image](https://github.com/user-attachments/assets/de73cb46-83a2-4d4d-b357-81fe804f03dd)
 
 
 ## Автор:
   - [Колотиков Евгений](https://github.com/Tiaki026)
 ## 
-
 
   ## [:top: Путь наверх :top:](https://github.com/Tiaki026/scrapy_parser_pep?tab=readme-ov-file#scrapy-pep-parser)
