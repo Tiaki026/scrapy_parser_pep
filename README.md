@@ -71,14 +71,45 @@ pip install -r requirements.txt
 
 Файл [pep.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/pep_2024-08-12T00-35-59.csv)
 <details>
-  <summary>Спойлер</summary>
-  [1]: https://github.com/user-attachments/assets/44cc1517-3ec9-4023-a424-53682f221da0
+<summary>Спойлер</summary>
+  
+  ```
+  number,name,status
+  1,PEP Purpose and Guidelines,Active
+  399,Pure Python/C Accelerator Module Compatibility Requirements,Final
+  457,Notation For Positional-Only Parameters,Informational
+  430,Migrating to Python 3 as the default online documentation,Informational
+  483,The Theory of Type Hints,Informational
+  452,API for Cryptographic Hash Functions v2.0,Final
+  434,IDLE Enhancement Exception for All Branches,Informational
+  482,Literature Overview for Type Hints,Informational
+  394,The “python” Command on Unix-Like Systems,Active
+  333,Python Web Server Gateway Interface v1.0,Informational
+  ```
 </details>
 
 Файл [status_summary.csv](https://github.com/Tiaki026/scrapy_parser_pep/blob/main/results/status_summary_2024-08-12-03-35-59.csv)
 <details>
-  <summary>Спойлер</summary>
-  [1]: https://github.com/user-attachments/assets/de73cb46-83a2-4d4d-b357-81fe804f03dd
+<summary>Спойлер</summary>
+  
+```
+Статус,Количество
+Active,24
+Final,233
+Informational,32
+Rejected,108
+Superseded,17
+Withdrawn,53
+Standards Track,118
+Process,8
+April Fool!,1
+Deferred,29
+Draft,16
+Accepted,10
+Provisional,1
+Total,650
+```
+
 </details>
 
 
