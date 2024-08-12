@@ -1,6 +1,6 @@
 import scrapy
 
-from pep_parse.constants import (
+from pep_parse.settings import (
     ALLOWED_DOMAINS, NAME, PEP_LINK, START_URL, STATUS, TITLE
 )
 from pep_parse.items import PepParseItem

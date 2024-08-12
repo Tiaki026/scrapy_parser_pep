@@ -1,8 +1,9 @@
+import csv
 from collections import defaultdict
 
-from pep_parse.constants import (
+from pep_parse.settings import (
     BASE_DIR, FILE_NAME, ITEM_STATUS,
-    RESULTS, STATUS_COUNT, TOTAL, UTF8, W
+    RESULTS, STATUS_COUNT, TOTAL, UTF8, WRITE
 )
 
 
@@ -29,8 +30,9 @@ class PepParsePipeline:
         Добавляет в конце строку Total с общим количеством PEP."""
         self.count_status[TOTAL] = sum(self.count_status.values())
 
-        with open(self.file_path, mode=W, encoding=UTF8) as f:
-            f.write(STATUS_COUNT)
-
-            for status, count in self.count_status.items():
-                f.write(f'{status},{count}\n')
+        with open(self.file_path, mode=WRITE, encoding=UTF8, newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(STATUS_COUNT)
+            writer.writerows([
+                (status, count) for status, count in self.count_status.items()
+                ])
